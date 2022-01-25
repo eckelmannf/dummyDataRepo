@@ -27,7 +27,7 @@ jobs:
         run : "ls -la $GITHUB_WORKSPACE"
         
       - name: Create datasource.json
-        uses: ./$GITHUB_WORKSPACE/
+        uses: whoohoo86/gh-open-data-page@master
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
