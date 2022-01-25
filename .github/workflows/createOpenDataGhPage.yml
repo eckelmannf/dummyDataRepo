@@ -30,6 +30,7 @@ jobs:
         uses: whoohoo86/gh-open-data-page@master
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          CWD:  ${{ github.workspace }}
 
       # Runs a single command using the runners shell
       - name: Setup Node.js environment
