@@ -25,6 +25,9 @@ Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zeno
 Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
 
 ## Informationen zum Datensatz und Entstehungskontext
+
+IM FRESH!
+
 ### Administrative und organisatorische Angaben
 
 Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des [Infektionsschutzgesetz - IfSG](https://www.gesetze-im-internet.de/ifsg/index.html) von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.  
