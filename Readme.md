@@ -26,7 +26,7 @@ Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [
 
 ## Informationen zum Datensatz und Entstehungskontext
 
-IM FRESH!
+IM FRESH! PLZ
 
 ### Administrative und organisatorische Angaben
 
