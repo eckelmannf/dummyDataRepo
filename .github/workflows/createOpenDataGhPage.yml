@@ -43,5 +43,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          cd $GITHUB_WORKSPACE
           npm install
           npm run ng -- deploy --base-href=/dummyDataRepo/ --name="EckelmannF" --email=eckelmannf@rki.de
