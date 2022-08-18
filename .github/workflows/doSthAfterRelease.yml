@@ -14,11 +14,16 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
     steps:
-    - name: Create and deploy opendata website
-      uses: eckelmannf/OpenData-Website@main
+    
+    - name: Checkout
+      uses: actions/checkout@v3
+      
+    - name: Dump file
+      run: echo "I ran after Create Release on push" > ./newFile.txt
+      
+    - name: Add + Commit
+      uses: EndBug/add-and-commit@v9
       with:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        WEBSITE_BRANCH: "open-data-website"
+        message: 'I added a file after the release workflow!'
         
