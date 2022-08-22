@@ -28,11 +28,25 @@ jobs:
          zenodo_deposition_id: ${{ env.zenodo_deposition_id }}
          zenodo_server: ${{ env.zenodo_server }}
          zenodo_token: ${{ secrets.ZENODO_TOKEN }}
-       
+  
+  create_tag:
+    name: Create tag from ref
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.tag.outputs.tag }}
+    
+    steps:
+      - name: Remove _pre from ref
+        id: tag
+        run: |
+          REF=${{github.ref_name}}
+          TAG="${REF//_pre/}"
+          echo "::set-output name=tag::$TAG"
+  
   update_deposition:
     name: Update DOIs in all and publish new Zenodo Deposition
     runs-on: ubuntu-latest
-    needs: [new_zenodo_draft]
+    needs: [new_zenodo_draft, create_tag]
     
     steps:
       - name: Checkout Repository    
@@ -76,26 +90,17 @@ jobs:
 
       - name: Clean Working Directory
         run: rm -rf md2pdf .tmp_zenodo_deposition.json
-      
-      - name: test ref
-        run: echo ${{github.ref}}
-      
-      - name: test replace
-        run: echo "tag is '$($github.ref//_pre/)'"
-      
-      - name: Set env tag
-        run: echo "tag=$($github.ref//_pre/)" >> $GITHUB_ENV
                 
       - name: Add and Commit Changes 
         uses: EndBug/add-and-commit@v9.0.1
         with:
           message: 'Update Metadata ${{ env.tag }}'
-          tag: ${{ env.tag }}
+          tag: ${{ needs.create_tag.outputs.tag }}
 
   Create_release:
     name: Create release
     runs-on: ubuntu-latest
-    needs: [update_deposition]
+    needs: [update_deposition, create_tag]
     
     steps:
       - name: Checkout Repository    
@@ -108,8 +113,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         with:
-          tag_name: ${{ env.tag }}
-          release_name: Datenstand ${{ env.tag }}
-          body: Datenstand ${{ needs.delete_latest_tag.outputs.tag }} inklusiver aktueller DOIs
+          tag_name: ${{ needs.create_tag.outputs.tag }}
+          release_name: Datenstand ${{ needs.create_tag.outputs.tag }}
+          body: Datenstand ${{ needs.create_tag.outputs.tag }} inklusiver aktueller DOIs
           draft: false
           prerelease: false
