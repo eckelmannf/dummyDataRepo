@@ -12,33 +12,27 @@ env:
   whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
   
 jobs:
-  replaceTag:
-    name: set env
+  createTag:
+    name: Create tag from ref
     runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.tagName.outputs.tag }}
     
     steps:
-      - name: test ref
-        run: echo ${{github.ref_name}}
-        
-      - name: test replace
+      - name: Remove _pre from ref
+        id: tagName
         run: |
           REF=${{github.ref_name}}
           TAG="${REF//_pre/}"
-          echo tag is $TAG
+          echo "::set-output name=tag::$TAG"
       
-      - name: Set env tag
-        run: |
-          REF=${{github.ref_name}}
-          TAG="${REF//_pre/}"
-          echo "tag=$TAG" >> $GITHUB_ENV
-      
-      - name: read env   
-        run: echo "env is ${{env.tag}}"
+      - name: read tag   
+        run: echo "env is ${{steps.tagName.outputs.tag}}"
   useEnv:
     name: use env
     runs-on: ubuntu-latest
-    needs: [replaceTag]
+    needs: [createTag]
     
     steps:
       - name: read env other job   
-        run: echo "env is ${{env.tag}}"
+        run: echo "env is ${{needs.createTag.outputs.tag}}"
