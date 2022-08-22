@@ -78,7 +78,7 @@ jobs:
         run: rm -rf md2pdf .tmp_zenodo_deposition.json
       
       - name: test ref
-        run: echo "ref: $github.ref"
+        run: echo "ref: ${{github.ref}}"
       
       - name: test replace
         run: echo "tag: $($github.ref//_pre/)"
