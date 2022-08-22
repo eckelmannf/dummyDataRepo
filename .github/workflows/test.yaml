@@ -19,9 +19,8 @@ jobs:
     steps:
       - name: test ref
         run: echo ${{github.ref_name}}
-    
       - name: test replace
-        run: echo "tag is ${${{github.ref_name}}/_pre/}"
+        run: echo "tag is ${${{github.ref_name}}%_pre*}"
       
       - name: Set env tag
         run: echo "tag=${${{github.ref_name}}/_pre/}" >> $GITHUB_ENV
