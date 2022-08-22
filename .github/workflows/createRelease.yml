@@ -77,8 +77,14 @@ jobs:
       - name: Clean Working Directory
         run: rm -rf md2pdf .tmp_zenodo_deposition.json
       
+      - name: test ref
+        run: echo "ref: $github.ref"
+      
+      - name: test replace
+        run: echo "tag: $($github.ref//_pre/)"
+      
       - name: Set env tag
-        run: echo "tag=$(github.ref//_pre/)" >> $GITHUB_ENV
+        run: echo "tag=$($github.ref//_pre/)" >> $GITHUB_ENV
                 
       - name: Add and Commit Changes 
         uses: EndBug/add-and-commit@v9.0.1
