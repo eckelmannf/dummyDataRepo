@@ -78,10 +78,10 @@ jobs:
         run: rm -rf md2pdf .tmp_zenodo_deposition.json
       
       - name: test ref
-        run: echo "ref: ${{github.ref}}"
+        run: echo ${{github.ref}}
       
       - name: test replace
-        run: echo "tag: $($github.ref//_pre/)"
+        run: echo "tag is '$($github.ref//_pre/)'"
       
       - name: Set env tag
         run: echo "tag=$($github.ref//_pre/)" >> $GITHUB_ENV
