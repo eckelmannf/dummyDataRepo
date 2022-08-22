@@ -11,7 +11,6 @@ env:
   zenodo_server: 'https://sandbox.zenodo.org'
   whitelist_replace_doi: .github/workflows/.zenodo_whitelist_replace_doi
   whitelist_uploads: .github/workflows/.zenodo_whitelist_uploads
-  tag: ${github.ref//_pre/}
   
 jobs:
   new_zenodo_draft:
@@ -38,6 +37,8 @@ jobs:
     steps:
       - name: Checkout Repository    
         uses: actions/checkout@v3
+        with:
+          ref: master
         
       - name: Replace DOIs in all given files by whitelist_replace_doi
         shell: bash
@@ -75,6 +76,9 @@ jobs:
 
       - name: Clean Working Directory
         run: rm -rf md2pdf .tmp_zenodo_deposition.json
+      
+      - name: Set env tag
+        run: echo "tag=$(github.ref//_pre/)" >> $GITHUB_ENV
                 
       - name: Add and Commit Changes 
         uses: EndBug/add-and-commit@v9.0.1
