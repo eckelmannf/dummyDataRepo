@@ -38,8 +38,6 @@ jobs:
     steps:
       - name: Checkout Repository    
         uses: actions/checkout@v3
-        with:
-          ref: main
         
       - name: Replace DOIs in all given files by whitelist_replace_doi
         shell: bash
