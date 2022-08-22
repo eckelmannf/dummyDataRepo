@@ -81,7 +81,7 @@ jobs:
       - name: Add and Commit Changes 
         uses: EndBug/add-and-commit@v9.0.1
         with:
-          message: 'Update Metadata ${{ env.tag }}
+          message: 'Update Metadata ${{ env.tag }}'
           tag: ${{ env.tag }}
 
   Create_release:
