@@ -1,0 +1,5 @@
+[
+	{"loc": "text"},
+	{"loc": "text", "toll": "text"},
+	{"loc": "text", "toll": "text", "notDefinedProperty": "text"}
+]	
