@@ -6,7 +6,7 @@
               @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
               @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-              <10.5072/zenodo.1132989> a dcat:Dataset ;
+              <10.5072/zenodo.1133149> a dcat:Dataset ;
                   dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
                   dcatde:maintainer [ a foaf:Person; foaf:name "Fabian Eckelmann" ],[ a foaf:Person; foaf:name "asd1 asd1" ];
                   dct:description "Neues Repo Beschreibung des Datensatzes" ;
