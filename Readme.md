@@ -22,7 +22,7 @@ MF 4 | Forschungsdatenmanagement
 
 ## DOI to replace
 
-10.5072/zenodo.1139650
+10.5072/zenodo.1139669
   
 Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153).  
 
