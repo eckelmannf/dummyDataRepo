@@ -6,17 +6,17 @@
               @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
               @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-              <10.5072/zenodo.1149541> a dcat:Dataset ;
+              <10.5072/zenodo.1149567> a dcat:Dataset ;
                   dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
-                  dcatde:maintainer [ a foaf:Person; foaf:name "Fabian Eckelmann" ],[ a foaf:Person; foaf:name "asd1 asd1" ];
-                  dct:description "Neues Repo Beschreibung des Datensatzes" ;
+                  dcatde:maintainer [ a foaf:Person; foaf:name "Fabian Eckelmann" ];
+                  dct:description "Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit." ;
                   dct:issued "2022-11-18T11:47:31+01:00"^^xsd:dateTime ;
                   dct:modified "2022-11-22T10:17:34+01:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
                   ] ;
-                  dct:title "Neues Repo mit vielen Leerzeichen" ;
+                  dct:title "Repo mit vielen Leerzeichen" ;
                   dcat:keyword "aa","Another Tag";
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> .
               

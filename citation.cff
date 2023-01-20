@@ -1,7 +1,10 @@
 cff-version: 1.2.0
 type: dataset
-title: Neues Repo mit vielen Leerzeichen
-abstract: Neues Repo Beschreibung des Datensatzes
+title: Repo mit vielen Leerzeichen
+abstract: >-
+  Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der
+  COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher
+  Aufmerksamkeit.
 date-released: '2022-11-18'
 keywords:
   - aa
@@ -9,6 +12,6 @@ keywords:
 message: Cite me!
 url: https://www.github.io/robert-koch-institut/Dummy_Data_Repo
 license: CC-BY-4.0
-doi: 10.5072/zenodo.1149541
+doi: 10.5072/zenodo.1149567
 authors:
   - name: MF4
