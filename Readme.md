@@ -33,6 +33,8 @@ Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [
 HELLO! Knut Super Branch coming soon!!!!!
 IM FRESH! PLZ
 
+![**Abbildung**: Überblick Datenfluss Digitales Impfquoten-Monitoring (DIM)](./Img/2022-06-21_DIM_Datenfluss_Uebersicht.jpg)
+
 ### Administrative und organisatorische Angaben
 
 Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des [Infektionsschutzgesetz - IfSG](https://www.gesetze-im-internet.de/ifsg/index.html) von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.  
