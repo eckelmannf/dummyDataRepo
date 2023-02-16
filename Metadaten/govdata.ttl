@@ -1,0 +1,47 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+              @prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+              @prefix dct: <http://purl.org/dc/terms/> .
+              @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+              @prefix schema: <http://schema.org/> .
+              @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+              @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+              <10.5072/zenodo.1165074> a dcat:Dataset ;
+                  dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
+                  dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
+                  dcatde:contributor [ a foaf:Person; foaf:name "Fabian Eckelmann" ];
+                  dct:description "<p>Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit.</p>
+" ;
+                  dct:issued "2022-12-23T10:44:09+01:00"^^xsd:dateTime ;
+                  dct:modified "2022-12-23T10:44:09+01:00"^^xsd:dateTime ;
+                  dct:publisher [ a foaf:Organization ;
+                      foaf:mbox "opendata@rki.de" ;
+                      foaf:name "Robert Koch Institut"
+                  ] ;
+                  dct:title "Repo mit vielen Leerzeichen" ;
+                   dcat:contactPoint [ a vcard:Organization ;
+                        vcard:fn "Robert Koch-Institut | Open Data Projektteam" ;
+                        vcard:hasCountryName "Deutschland" ;
+                        vcard:hasEmail "opendata@rki.de";
+                        vcard:hasLocality "Berlin" ;
+                        vcard:hasPostalCode "13353" ;
+                        vcard:hasStreetAddress "Nordufer 20"
+                  ];
+                  dcat:landingPage <https://robert-koch-institut.github.io/Repo_mit_vielen_Leerzeichen>;
+                  dcat:theme    <http://publications.europa.eu/resource/authority/data-theme/HEAL>,
+                                <http://publications.europa.eu/resource/authority/data-theme/SOCI>,
+                                <http://publications.europa.eu/resource/authority/data-theme/TECH>;
+                  dcat:keyword "aa","Another Tag";
+                  dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
+                  dcat:distribution [
+                    a dcat:Distribution ;
+                    dcatde:licenseAttributionByText "Eckelmann, Fabian (2022): Repo mit vielen Leerzeichen, Berlin: Zenodo. DOI:10.5072/zenodo.1165074" ;
+                    dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
+                    dct:description "<p>Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit.</p>
+" ;
+                    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+                    dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+                    dct:title "Repo mit vielen Leerzeichen" ;
+                    dcat:accessURL <https://raw.githubusercontent.com/robert-koch-institut/Repo_mit_vielen_Leerzeichen>;
+                    dct:modified "2022-12-23T10:44:09+01:00"^^xsd:dateTime;
+                  ].

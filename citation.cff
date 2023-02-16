@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+type: dataset
+title: Repo mit vielen Leerzeichen
+abstract: |
+  <p></p>
+date-released: '2022-12-23'
+keywords:
+  - aa
+  - Another Tag
+message: Cite me!
+url: https://www.github.io/robert-koch-institut/Dummy_Data_Repo
+license: CC-BY-4.0
+doi: 10.5072/zenodo.1165074
+authors:
+  - name: MF4
