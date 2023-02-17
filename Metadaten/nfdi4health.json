@@ -6,7 +6,7 @@
       "content_blobs": [
         {
           "content_type": "text/html",
-          "url": "https://github.com/robert-koch-institut/Repo_mit vielen Leerzeichen",
+          "url": "https://github.com/robert-koch-institut/Dummy_Data_Repo",
           "original_filename": "Github Link"
         }
       ],
@@ -22,7 +22,7 @@
         "resource_acronyms": [],
         "resource_descriptions": [
           {
-            "description": "<p></p>\n",
+            "description": "Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit.",
             "description_language": "DE (German)"
           }
         ],
@@ -85,14 +85,14 @@
         ],
         "ids": [
           {
-            "id_identifier": "https://github.com/robert-koch-institut/Repo_mit vielen Leerzeichen",
+            "id_identifier": "https://github.com/robert-koch-institut/Dummy_Data_Repo",
             "id_date": "",
             "id_type": "URL",
             "id_relation_type": "describes",
             "id_resource_type_general": "Dataset"
           },
           {
-            "id_identifier": "10.5072/zenodo.1165074",
+            "id_identifier": "10.5072/zenodo.1165354",
             "id_date": "",
             "id_type": "DOI",
             "id_relation_type": "has part",
