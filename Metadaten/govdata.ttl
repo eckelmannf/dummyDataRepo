@@ -6,7 +6,7 @@
               @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
               @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-              <10.5072/zenodo.1165354> a dcat:Dataset ;
+              <10.5072/zenodo.1165979> a dcat:Dataset ;
                   dcatde:contributorID <http://dcat-ap.de/def/contributors/robertKochInstitut> ;
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Person; foaf:name "Fabian Eckelmann" ];
@@ -35,7 +35,7 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Eckelmann, Fabian (2022): Repo mit vielen Leerzeichen, Berlin: Zenodo. DOI:10.5072/zenodo.1165354" ;
+                    dcatde:licenseAttributionByText "Eckelmann, Fabian (2022): Repo mit vielen Leerzeichen, Berlin: Zenodo. DOI:10.5072/zenodo.1165979" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "<p>Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit.</p>
 " ;
@@ -49,7 +49,7 @@
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] Repo_mit_vielen_Leerzeichen.pdf" ;
-                    dcatde:licenseAttributionByText "Robert Koch-Institut (2022): Repo mit vielen Leerzeichen, Berlin: Zenodo. DOI:10.5072/zenodo.1165354" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2022): Repo mit vielen Leerzeichen, Berlin: Zenodo. DOI:10.5072/zenodo.1165979" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Repo mit vielen Leerzeichen' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
