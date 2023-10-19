@@ -1,10 +1,10 @@
 {
   "title": "Repo mit vielen Leerzeichen",
-  "description": "<p>Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit.</p>\n",
+  "description": "Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit.",
   "creators": [
     {
       "name": "MF4",
-      "affiliation": "Robert Koch-Institut"
+      "affiliation": "MF4"
     }
   ],
   "contributors": [
@@ -18,8 +18,8 @@
     "aa",
     "Another Tag"
   ],
-  "publication_date": "2023-06-01",
-  "version": "2023-06-01",
+  "publication_date": "2023-10-19",
+  "version": "2023-10-19",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -30,6 +30,14 @@
     }
   ],
   "subjects": [],
+  "dates": [
+    {
+      "start": "2023-10-19T12:59:00+02:00",
+      "end": "2023-10-19T12:59:00+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
   "related_identifiers": [
     {
       "relation": "isSupplementTo",
