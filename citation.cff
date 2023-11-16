@@ -5,14 +5,14 @@ abstract: >-
   Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der
   COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher
   Aufmerksamkeit.
-date-released: '2023-10-19'
+date-released: '2023-11-16'
 keywords:
   - aa
   - Another Tag
 message: Cite me!
 url: https://www.github.io/robert-koch-institut/Dummy_Data_Repo
 license: CC-BY-4.0
-doi: Currently no DOI available
-version: '2023-10-19T15:53:08+02:00'
+doi: Currently/no/DOI/available
+version: '2023-11-16T14:32:14+01:00'
 authors:
   - name: MF4
