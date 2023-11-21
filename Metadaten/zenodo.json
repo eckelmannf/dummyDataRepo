@@ -1,5 +1,5 @@
 {
-  "title": "Zenodo Repo",
+  "title": "Zenodo Repo another one!",
   "description": "Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit.",
   "creators": [
     {
@@ -32,8 +32,8 @@
   "subjects": [],
   "dates": [
     {
-      "start": "2023-11-21T15:13:04+01:00",
-      "end": "2023-11-21T15:13:04+01:00",
+      "start": "2023-11-21T15:24:42+01:00",
+      "end": "2023-11-21T15:24:42+01:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }
