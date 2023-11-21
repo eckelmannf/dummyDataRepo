@@ -1,5 +1,5 @@
 {
-  "title": "Repo mit vielen Leerzeichen",
+  "title": "Zenodo Repo",
   "description": "Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher Aufmerksamkeit.",
   "creators": [
     {
@@ -10,7 +10,7 @@
   "contributors": [
     {
       "name": "Eckelmann, Fabian",
-      "affiliation": "",
+      "affiliation": "Robert Koch-Institut",
       "type": "Researcher"
     }
   ],
@@ -18,8 +18,8 @@
     "aa",
     "Another Tag"
   ],
-  "publication_date": "2023-11-16",
-  "version": "2023-11-16",
+  "publication_date": "2023-11-21",
+  "version": "2023-11-21",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -32,8 +32,8 @@
   "subjects": [],
   "dates": [
     {
-      "start": "2023-11-16T14:32:14+01:00",
-      "end": "2023-11-16T14:32:14+01:00",
+      "start": "2023-11-21T15:13:04+01:00",
+      "end": "2023-11-21T15:13:04+01:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }

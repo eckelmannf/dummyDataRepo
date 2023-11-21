@@ -1,18 +1,18 @@
 cff-version: 1.2.0
 type: dataset
-title: Repo mit vielen Leerzeichen
+title: Zenodo Repo
 abstract: >-
   Die COVID-19-Impfung kann einen Wendepunkt in der Kontrolle der
   COVID-19-Pandemie darstellen und erfährt daher hohes Maß an öffentlicher
   Aufmerksamkeit.
-date-released: '2023-11-16'
+date-released: '2023-11-21'
 keywords:
   - aa
   - Another Tag
 message: Cite me!
 url: https://www.github.io/robert-koch-institut/Dummy_Data_Repo
 license: CC-BY-4.0
-doi: Currently/no/DOI/available
-version: '2023-11-16T14:32:14+01:00'
+doi: 10.5072/zenodo.580
+version: '2023-11-21T15:13:04+01:00'
 authors:
   - name: MF4

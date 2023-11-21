@@ -5,7 +5,7 @@
     ],
     "ids": [
       {
-        "identifier": "Currently/no/DOI/available",
+        "identifier": "10.5072/zenodo.580",
         "type": "DOI",
         "resource_type_general": "Dataset",
         "relation_type": "A references B"
@@ -55,11 +55,11 @@
         },
         "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "resource_version": "2023-11-16"
+      "resource_version": "2023-11-21"
     },
     "resource_titles": [
       {
-        "text": "Repo mit vielen Leerzeichen",
+        "text": "Zenodo Repo",
         "language": "DE (German)"
       }
     ],
@@ -68,7 +68,7 @@
       {
         "role_affiliations": [
           {
-            "role_affiliation_name": ""
+            "role_affiliation_name": "Robert Koch-Institut"
           }
         ],
         "role_email": "EckelmannF@rki.de",
