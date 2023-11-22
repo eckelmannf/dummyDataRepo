@@ -18,8 +18,8 @@
     "aa",
     "Another Tag"
   ],
-  "publication_date": "2023-11-21",
-  "version": "2023-11-21",
+  "publication_date": "2023-11-22",
+  "version": "2023-11-22",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -32,8 +32,8 @@
   "subjects": [],
   "dates": [
     {
-      "start": "2023-11-21T15:24:42+01:00",
-      "end": "2023-11-21T15:24:42+01:00",
+      "start": "2023-11-22T16:49:29+01:00",
+      "end": "2023-11-22T16:49:29+01:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }
