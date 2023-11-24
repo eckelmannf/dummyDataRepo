@@ -23,7 +23,7 @@ MF 4 | Forschungsdatenmanagement
 ## DOI to replace
 
 LatestDOI
-Currently no DOI available
+10.5072/zenodo.2088
  
 Some older DOI
 10.5072/zenodo.1208019
