@@ -7,11 +7,25 @@
       "affiliation": "MF4"
     }
   ],
-  "contributors": [
+  "contributors": "creators": [
     {
-      "name": "Eckelmann, Fabian",
+      "name": "Rieck, Thorsten",
       "affiliation": "Robert Koch-Institut",
-      "type": "Researcher"
+      "orcid": "0000-0002-8799-8744"
+    },
+    {
+      "name": "Feig, Marcel",
+      "affiliation": "Robert Koch-Institut"
+    },
+    {
+      "name": "Thielemann, Iris",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-7652-7090"
+    },
+    {
+      "name": "Steffen, Annika",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0003-4072-9245"
     }
   ],
   "keywords": [
