@@ -11,8 +11,8 @@
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Organization; foaf:name "MF4" ];
                   dct:description "<h1>Welcome to StackEdit!</h1><p>Hi! I'm your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the <strong>file explorer</strong> on the left corner of the navigation bar.</p><h1>Files</h1><p>StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible <strong>offline!</strong></p><h2>Create files and folders</h2><p>The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the <strong>New file</strong> button in the file explorer. You can also create folders by clicking the <strong>New folder</strong> button.</p><h2>Switch to another file</h2><p>All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.</p><h2>Rename a file</h2><p>You can rename the current file by clicking the file name in the navigation bar or by clicking the <strong>Rename</strong> button in the file explorer.</p><h2>Delete a file</h2><p>You can delete the current file by clicking the <strong>Remove</strong> button in the file explorer. The file will be moved into the <strong>Trash</strong> folder and automatically deleted after 7 days of inactivity.</p><h2>Export a file</h2><p>You can export the current file by clicking <strong>Export to disk</strong> in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.</p><h1>Synchronization</h1><p>Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your <strong>Google Drive</strong>, your <strong>Dropbox</strong> and your <strong>GitHub</strong> accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.</p><p>There are two types of synchronization and they can complement each other:</p><ul><li>The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.</li></ul><blockquote><p>To start syncing your workspace, just sign in with Google in the menu.</p></blockquote><ul><li>The file synchronization will keep one file of the workspace synced with one or multiple files in <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong>.</li></ul><blockquote><p>Before starting to sync files, you must link an account in the <strong>Synchronize</strong> sub-menu.</p></blockquote><h2>Open a file</h2><p>You can open a file from <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Open from</strong>. Once opened in the workspace, any modification in the file will be automatically synced.</p><h2>Save a file</h2><p>You can save any file of the workspace to <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Save on</strong>. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.</p><h2>Synchronize a file</h2><p>Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.</p><p>If you just have modified your file and you want to force syncing, click the <strong>Synchronize now</strong> button in the navigation bar.</p><blockquote><p><strong>Note:</strong> The <strong>Synchronize now</strong> button is disabled if you have no file to synchronize.</p></blockquote><h2>Manage file synchronization</h2><p>Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking <strong>File synchronization</strong> in the <strong>Synchronize</strong> sub-menu. This allows you to list and remove synchronized locations that are linked to your file.</p><h1>Publication</h1><p>Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like <strong>Blogger</strong>, <strong>Dropbox</strong>, <strong>Gist</strong>, <strong>GitHub</strong>, <strong>Google Drive</strong>, <strong>WordPress</strong> and <strong>Zendesk</strong>. With <a href=\"http://handlebarsjs.com/\">Handlebars templates</a>, you have full control over what you export.</p><blockquote><p>Before starting to publish, you must link an account in the <strong>Publish</strong> sub-menu.</p></blockquote>" ;
-                  dct:issued "2025-01-08T11:15:22+01:00"^^xsd:dateTime ;
-                  dct:modified "2025-01-08T11:16:34+01:00"^^xsd:dateTime ;
+                  dct:issued "2025-01-08T11:29:10+01:00"^^xsd:dateTime ;
+                  dct:modified "2025-01-08T11:34:30+01:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
@@ -34,35 +34,35 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "MF4 (2025): Zenodo Repo another one!, Berlin: Zenodo. DOI:10.5072/zenodo.149280" ;
+                    dcatde:licenseAttributionByText "MF4 (2025): Zenodo Repo another one!, Berlin: Zenodo. DOI:10.5072/zenodo.149290" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Github - Zenodo Repo another one!" ;
                     dcat:accessURL <https://github.com/robert-koch-institut/Dummy_Data_Repo>;
-                    dct:modified "2025-01-08T11:15:22+01:00"^^xsd:dateTime;
+                    dct:modified "2025-01-08T11:29:10+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "MF4 (2025): Zenodo Repo another one!, Berlin: Zenodo. DOI:10.5072/zenodo.149280" ;
+                    dcatde:licenseAttributionByText "MF4 (2025): Zenodo Repo another one!, Berlin: Zenodo. DOI:10.5072/zenodo.149290" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - Zenodo Repo another one!" ;
                     dcat:accessURL <https://zenodo.org/record/582>;
-                    dct:modified "2025-01-08T11:15:22+01:00"^^xsd:dateTime;
+                    dct:modified "2025-01-08T11:29:10+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] Zenodo_Repo_another_one!.pdf" ;
-                    dcatde:licenseAttributionByText "MF4 (2025): Zenodo Repo another one!, Berlin: Zenodo. DOI:10.5072/zenodo.149280" ;
+                    dcatde:licenseAttributionByText "MF4 (2025): Zenodo Repo another one!, Berlin: Zenodo. DOI:10.5072/zenodo.149290" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'Zenodo Repo another one!' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dcat:accessURL <https://zenodo.org/record/582/files/%5BDokumentation%5D_Dummy_Data_Repo.pdf>;
-                    dct:modified "2025-01-08T11:15:22+01:00"^^xsd:dateTime;
+                    dct:modified "2025-01-08T11:29:10+01:00"^^xsd:dateTime;
                   ].
