@@ -1,0 +1,14 @@
+name: Publish Webreport
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:  
+    - name: Bulid and deploy OpenData Website
+      uses: eckelmannf/OpenData-Website@main
+      with:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
