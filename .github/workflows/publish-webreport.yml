@@ -8,7 +8,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:  
-    - name: Bulid and deploy OpenData Website
-      uses: eckelmannf/OpenData-Website@main
+    - name: Checkout default branch
+      uses: actions/checkout@v4.2.2
       with:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+        filter: '*.html'
+
+    - name: Copy html-file to gh-page branch
+      uses: actions/upload-pages-artifact@v3 
+      with:
+        path: '/'
+        
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
