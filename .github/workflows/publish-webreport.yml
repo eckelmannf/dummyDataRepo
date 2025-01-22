@@ -15,6 +15,9 @@ jobs:
           *.html
         sparse-checkout-cone-mode: false
 
+    - name: Rename html-file to index.html
+      run: mv *.html index.html
+
     - name: Copy html-file to gh-page branch
       uses: peaceiris/actions-gh-pages@v4
       with:
