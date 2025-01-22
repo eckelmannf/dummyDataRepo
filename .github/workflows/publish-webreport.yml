@@ -15,6 +15,15 @@ jobs:
           *.html
         sparse-checkout-cone-mode: false
 
+    - name: Ensure only 1 html-file
+      run: |
+        htmlCount=$(find ./ -mindepth 1 -type f -name "*.html" -printf x | wc -c);
+        if [ "$htmlCount" -ne 1 ];
+        then
+            echo "::error title=Too many html files::Found more than 1 html file. Webreport publishing aborted";
+            exit 1;
+        fi
+
     - name: Rename html-file to index.html
       run: mv *.html index.html
 
