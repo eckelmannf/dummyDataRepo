@@ -143,7 +143,7 @@ abstract: >-
 
   &gt; Before starting to publish, you must link an account in the Publish
   sub-menu.
-date-released: '2025-01-22'
+date-released: '2025-01-28'
 keywords:
   - aa
   - Another Tag
@@ -152,7 +152,7 @@ keywords:
 message: Cite me!
 url: https://www.github.io/robert-koch-institut/Dummy_Data_Repo
 license: CC-BY-4.0
-doi: 10.5072/zenodo.155311
-version: '2025-01-22T12:12:28+01:00'
+doi: 10.5072/zenodo.159230
+version: '2025-01-28T12:21:02+01:00'
 authors:
   - name: MF4
